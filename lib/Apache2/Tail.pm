@@ -1,6 +1,6 @@
 package Apache2::Tail;
 
-our $VERSION = 0.01;
+our $VERSION = 0.02;
 
 use strict;
 use Apache2::RequestIO  ();
@@ -276,7 +276,7 @@ Philippe M. Chiasson E<lt>gozer@cpan.orgE<gt>
 
 =head1 ARTWORK
 
-Tara Gibbs E<lt>tarag@activestate.comkE<gt>
+Tara Gibbs E<lt>tarag@activestate.comE<gt>
 
 =head1 REPOSITORY
 
