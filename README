@@ -24,13 +24,16 @@ DESCRIPTION
     These options can be configured with PerlSetVar
 
     * Apache2::Tail::ErrorLog
+
       The file to display, defaults to the current VirtualHost's *error_log*
 
     * Apache2::Tail::Count
+
       The default maximum number of lines to display. Defaults to *50*, but
       can also be overriden at request time with the ?n= query parameter
 
     * Apache2::Tail::CSS
+
       The URL to an alternate sylesheet, defaults to some built-in defaults
 
 INTERNAL DOCUMENTATION

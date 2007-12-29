@@ -14,12 +14,15 @@ if (eval " use Apache::Test; 1;") {
 WriteMakefile(
               NAME          => 'Apache2::Tail',
               VERSION_FROM  => 'lib/Apache2/Tail.pm',
+              ABSTRACT_FROM  => 'lib/Apache2/Tail.pm',
+              AUTHOR         => 'Philippe M. Chiasson <gozer@cpan.org>',
               SIGN              => 1,
               LICENSE           => 'perl',
               PREREQ_PM => {
                             'mod_perl2' => 0,
                             'CGI'       => 0,
                             'File::Tail' => 0,
+			    'Test::More' => 0,
                            },
              );
 

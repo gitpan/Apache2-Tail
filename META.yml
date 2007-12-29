@@ -1,7 +1,7 @@
 --- #YAML:1.0
 name:                Apache2-Tail
-version:             0.02
-abstract:            ~
+version:             0.03
+abstract:            mod_perl handler to display the error_log
 license:             perl
 generated_by:        ExtUtils::MakeMaker version 6.36
 distribution_type:   module
@@ -9,6 +9,9 @@ requires:
     CGI:                           0
     File::Tail:                    0
     mod_perl2:                     0
+    Test::More:                    0
 meta-spec:
     url:     http://module-build.sourceforge.net/META-spec-v1.2.html
     version: 1.2
+author:
+    - Philippe M. Chiasson <gozer@cpan.org>

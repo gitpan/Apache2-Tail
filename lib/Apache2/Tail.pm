@@ -1,8 +1,10 @@
 package Apache2::Tail;
 
-our $VERSION = 0.02;
+our $VERSION = 0.03;
 
 use strict;
+use warnings;
+
 use Apache2::RequestIO  ();
 use Apache2::RequestRec ();
 use Apache2::ServerUtil ();
